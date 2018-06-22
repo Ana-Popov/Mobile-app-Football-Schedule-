@@ -1,0 +1,75 @@
+/*
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins,
+kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol,
+ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, figcaption,
+figure, footer, header, hgroup, menu, nav, section, summary, time,
+mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-size: 100%;
+     vertical-align: baseline;    
+     background: transparent;
+}
+*/
+
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    align-items: stretch;
+    font-size: 0.7ems;
+    width: 30%;
+
+   
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    align-items: stretch;
+    font-size: 0.7ems;
+    padding: 0;
+   
+}
+container .navigation{
+    flex-flow: row nowrap;
+    margin:1px;
+    padding: 0;
+}
+
+img {
+    padding-left: 11px;
+    width: 20%;
+    height: 100%;
+}
+
+
+.logo {
+    background-image: url(images/nysl_logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-size: contain;
+    width: 4.5em;
+}
+.brand-name{
+    font-size: 1.3em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;    
+}
+
+#collapsibleNavbar {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
